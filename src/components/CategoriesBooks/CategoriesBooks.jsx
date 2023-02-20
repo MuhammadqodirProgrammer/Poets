@@ -97,7 +97,6 @@ export const CategoryBooks = () => {
   const handleClick = (evt)=>{
 console.dir(evt.target.localName);
 if(evt.target.localName ==="a"){
-  console.log("ishla");
   searchRef.current.value = ""
   outletRef.current.classList.remove('d-none')
   outletRef.current.classList.add('d-flex')

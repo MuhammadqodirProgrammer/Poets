@@ -53,8 +53,7 @@ export const Settings = () => {
       document.body.classList.add("light");
     }   
 
-    // document.body.classList.add(localStorage.getItem("mode"));
-    // dispatch(setTheme(localStorage.getItem("mode")));
+
     setDarkMode(!darkMode);
   };
   useEffect(() => {
